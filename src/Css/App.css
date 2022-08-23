@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#body {
+  transition: all 0.85s;
+}
+
+.bodyDarkMode {
+  background-color: rgb(68, 68, 68);
+}

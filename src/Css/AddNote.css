@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#form {
+  transition: all 0.75s;
+}
+input {
+  padding: 0.25rem;
+  width: 100%;
+  transition: all 0.75s;
+}
+button {
+  width: 100%;
+}
+input:hover::placeholder {
+  transition: all 0.75s;
+  transform: translateX(-15rem);
+}
+textarea {
+  width: 100%;
+}
+textarea:hover::placeholder {
+  transition: all 0.85s;
+  transform: translateX(-15rem);
+}
+
+#desc {
+  height: 10rem;
+}
