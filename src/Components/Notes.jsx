@@ -18,7 +18,6 @@ const Notes = () => {
 
     // destructuring noteItem from state
     const { NoteItem } = state
-    console.log(NoteItem)
     if (!user?.email) {
         return <Navigate to="/" />
     }
